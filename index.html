@@ -3,94 +3,112 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jesse Miller</title>
-
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 0;
-      padding: 40px;
-      line-height: 1.6;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-      color: #222;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.2em;
-    }
-
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #0366d6;
-      font-weight: 500;
-    }
-
-    section {
-      margin-top: 40px;
-    }
-
-    footer {
-      margin-top: 60px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <title>Your Name</title>
+  <meta name="description" content="Creative + professional work across photography, music, design/UX, writing, and school projects." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <h1>Jesse Miller</h1>
-  <p>I am a master's student studying Business Analytics at UCSD. I have a passion for all things music (writing, recording, listening, curating), reading, photography, and nature.</p>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <strong>Your Name</strong>
+        <span>Creative work & professional practice</span>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
-  <nav>
-    <a href="#work">Work</a>
-    <a href="#projects">Projects</a>
-    <a href="#music">Projects</a>
-    <a href="#photography">Projects</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <section class="hero">
+      <h1>Hi — I’m Your Name.</h1>
+      <p>
+        I make things across mediums: photography, music, design/UX, and writing. This site is a quiet index of work
+        (professional and personal) — organized like a studio notebook rather than a single “main identity.”
+      </p>
+      <div class="badges" aria-label="Tags">
+        <span class="badge">minimal + warm</span>
+        <span class="badge">multi-disciplinary</span>
+        <span class="badge">collaborative</span>
+        <span class="badge">projects & experiments</span>
+      </div>
+    </section>
 
-  <section id="work">
-    <h2>Professional Work</h2>
-    <ul>
-      <li><strong>Job / Role</strong> — one-line description of impact</li>
-      <li><strong>Job / Role</strong> — one-line description of impact</li>
-    </ul>
-  </section>
+    <section class="section">
+      <h2>Explore</h2>
+      <div class="grid">
+        <a class="card" href="photography.html">
+          <h3>Photography</h3>
+          <p>Selected work + a link out to Instagram.</p>
+          <div class="meta">
+            <span>Gallery</span><span>•</span><span>Selection</span>
+          </div>
+        </a>
 
-  <section id="projects">
-    <h2>Personal Projects</h2>
-    <ul>
-      <li>
-        <strong>California Crime Dashboard</strong> — short description  
-        <br />
-        <a href="https://github.com/rsm-fluan/california-crime-dashboard">GitHub</a>
-        <a href="https://rsm-fluan.github.io/california-crime-dashboard/">GitHub</a>
-      </li>
-    </ul>
-  </section>
+        <a class="card" href="music.html">
+          <h3>Music</h3>
+          <p>Curation, live events, and my own work.</p>
+          <div class="meta">
+            <span>Curation</span><span>•</span><span>Live</span><span>•</span><span>Band</span>
+          </div>
+        </a>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      I am a master's student studying Business Analytics at UCSD. I have a passion for all things music (writing, recording, listening, curating), reading, photography, and nature.
-    </p>
-  </section>
+        <a class="card" href="design.html">
+          <h3>Design & UX</h3>
+          <p>Calendars, websites, flyers — and how I think.</p>
+          <div class="meta">
+            <span>UX</span><span>•</span><span>Visual</span><span>•</span><span>Systems</span>
+          </div>
+        </a>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      Email: jesse.miller@rady.ucsd.edu<br />
-      LinkedIn: <a href="https://www.linkedin.com/in/jesse-miller-442731226">linkedin.com/in/you</a>
-    </p>
-  </section>
+        <a class="card" href="writing.html">
+          <h3>Writing</h3>
+          <p>Samples, links, and Substack.</p>
+          <div class="meta">
+            <span>Essays</span><span>•</span><span>Notes</span>
+          </div>
+        </a>
 
-  <footer>
-    © 2026 Jesse Miller
-  </footer>
+        <a class="card" href="school.html">
+          <h3>School Work</h3>
+          <p>Projects, experiments, and my school GitHub.</p>
+          <div class="meta">
+            <span>Projects</span><span>•</span><span>Repos</span>
+          </div>
+        </a>
+
+        <a class="card" href="experience.html">
+          <h3>Prior Experience</h3>
+          <p>A few small examples — selected and concise.</p>
+          <div class="meta">
+            <span>Highlights</span><span>•</span><span>Impact</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Now</h2>
+      <div class="kicker">
+        <div class="smallcaps">Currently</div>
+        <ul class="list">
+          <li>Studying: <em>[topic / program focus]</em></li>
+          <li>Making: <em>[one creative focus]</em></li>
+          <li>Exploring: <em>[one curiosity]</em></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© 2026 Your Name</span>
+      <span>
+        <a href="contact.html">Contact</a> ·
+        <a href="https://github.com/yourusername">GitHub</a> ·
+        <a href="https://instagram.com/yourhandle">Instagram</a>
+      </span>
+    </footer>
+  </div>
 </body>
 </html>
